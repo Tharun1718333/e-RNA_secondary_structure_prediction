@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_back__track__test1_8cpp" xml:lang="en-US">
+<title>back_track_test1.cpp File Reference</title>
+<indexterm><primary>back_track_test1.cpp</primary></indexterm>
+<programlisting linenumbering="unnumbered">#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;string&gt;
+</programlisting><simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_back__track__test1_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4">main</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_back__track__test1_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>back_track_test1.cpp</secondary></indexterm>
+<indexterm><primary>back_track_test1.cpp</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>int main ( )</computeroutput></para>
+<para>......taking the input.....</para>
+
+<para>storing the size in len</para>
+
+<para>here we declare size as (len+1) to make everything 1-indexed</para>
+
+<para>to identify matching pairs we construct a vector where we initilaze A as 3 and U as 4, C as 2 and G as % we do this so that if a pair matches their sum is 7</para>
+
+<para>itreating through the array the first for represents the window length the second for represents the start of the array the third for iterates through the possible window created by first and second for loops in search of new pairs</para>
+
+<para>if no new pairs are found we reuse the old pairs</para>
+
+<para>we declare a 3-d vector we iterate th same way we did for the top except we just dont add up the numbers we add the possible pairs in each respective tiles</para>
+
+<para>declaring each element of the 3-d vector as a 2d-vector</para>
+
+<para>break because one possibility is enough</para>
+</section>
+</section>
+</section>

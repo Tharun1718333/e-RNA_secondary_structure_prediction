@@ -1,0 +1,45 @@
+.TH "back_track_test1.cpp" 3 "Sat Apr 23 2022" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+back_track_test1.cpp
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <iostream>\fP
+.br
+\fC#include <vector>\fP
+.br
+\fC#include <string>\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBmain\fP ()"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "int main ()"
+\&.\&.\&.\&.\&.\&.taking the input\&.\&.\&.\&.\&.
+.PP
+storing the size in len
+.PP
+here we declare size as (len+1) to make everything 1-indexed
+.PP
+to identify matching pairs we construct a vector where we initilaze A as 3 and U as 4, C as 2 and G as % we do this so that if a pair matches their sum is 7
+.PP
+itreating through the array the first for represents the window length the second for represents the start of the array the third for iterates through the possible window created by first and second for loops in search of new pairs
+.PP
+if no new pairs are found we reuse the old pairs
+.PP
+we declare a 3-d vector we iterate th same way we did for the top except we just dont add up the numbers we add the possible pairs in each respective tiles
+.PP
+declaring each element of the 3-d vector as a 2d-vector
+.PP
+break because one possibility is enough
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

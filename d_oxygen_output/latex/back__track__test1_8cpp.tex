@@ -1,0 +1,36 @@
+\hypertarget{back__track__test1_8cpp}{}\doxysection{back\+\_\+track\+\_\+test1.\+cpp File Reference}
+\label{back__track__test1_8cpp}\index{back\_track\_test1.cpp@{back\_track\_test1.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{back__track__test1_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{back__track__test1_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{back__track__test1_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{back\_track\_test1.cpp@{back\_track\_test1.cpp}!main@{main}}
+\index{main@{main}!back\_track\_test1.cpp@{back\_track\_test1.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+......taking the input.....
+
+storing the size in len
+
+here we declare size as (len+1) to make everything 1-\/indexed
+
+to identify matching pairs we construct a vector where we initilaze A as 3 and U as 4, C as 2 and G as \% we do this so that if a pair matches their sum is 7
+
+itreating through the array the first for represents the window length the second for represents the start of the array the third for iterates through the possible window created by first and second for loops in search of new pairs
+
+if no new pairs are found we reuse the old pairs
+
+we declare a 3-\/d vector we iterate th same way we did for the top except we just dont add up the numbers we add the possible pairs in each respective tiles
+
+declaring each element of the 3-\/d vector as a 2d-\/vector
+
+break because one possibility is enough
